@@ -1,0 +1,8 @@
+export kshk_prev_dir="$PWD"
+cd /run/media/orion
+for _dir in *; do
+    if [ -d "$_dir" ]; then
+        cd "$_dir"
+        return
+    fi
+done
