@@ -1,5 +1,5 @@
 export kshk_prev_dir="$PWD"
-cd /run/media/orion
+cd "/media/$LOGNAME"
 for _dir in *; do
     if [ -d "$_dir" ]; then
         cd "$_dir"
