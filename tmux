@@ -33,3 +33,5 @@ detach "smaller" clients to to recover .-filled area
   Or if you are doing it in an active tmux session:
   .:detach -a
 
+
+https://wiki.archlinux.org/index.php/Midnight_Commander
